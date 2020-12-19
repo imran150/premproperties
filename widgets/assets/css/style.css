@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+
+}
+
+
+.slider {
+  position: relative;
+  z-index: 200;
+  padding: 0 0px;
+  margin: 5rem auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.rigs-item{
+  background-color: #fff;
+  max-width: 100%;
+  height: 670px;
+  position: relative;
+}
+
+.wrapper-text{
+  padding: 50px;
+}
+
+.wrapper-text p{
+  font-size: 18px;
+  line-height: 1.6em;
+  margin-top: 84px;  
+}
+.clients-name {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #1e456b;
+  margin: 5px;
+  }
+  span {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #1e456b;
+    display: block;
+    }
+img{
+  height: 50px;
+width: 50px;
+  position: absolute;
+  left: 48%;
+  top: 8%;
+}
+
+
+
+
+
+/*Styling the default Slick dots*/
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	bottom: -90px;
+	margin: 0;
+	padding: 1rem 0;
+  list-style-type: none;
+}
+	
+		li {
+      margin: 0 0.25rem;
+      background-color: #8EAEC1;
+      border-radius: 100%;
+      
+
+    }
+    
+
+    .slick-dots li {
+      position: relative;
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin: 0 5px;
+      padding: 0;
+      cursor: pointer;
+  }
+  
+  .slick-dots li button {
+
+    width: 15px;
+    height: 15px;
+    }
+		button {
+			display: block;
+			width: 1rem;
+			height: 1rem;
+			padding: 0;
+			
+			border: none;
+			border-radius: 100%;
+			
+			text-indent: -9999px;
+		}
+	
+		li.slick-active button {
+			background-color: #1E456B;
+		}
+	
+
+    
+
+
+
+/*Styling the default Slick arrows*/
+
+
+
+
+
+    .slider .prev-arrow{
+      position: absolute;
+      bottom: 46%;
+left: -81px;
+      color: #fff;
+      width: 50px;
+      height: 50px;
+      background: #1E456B;
+      border-radius: ;
+      text-align: center;
+      line-height: 50px;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+
+    .slider .next-arrow{
+      position: absolute;
+      bottom: 46%;
+      right: -81px;
+      color: #fff;
+      width: 50px;
+      height: 50px;
+      background: #1E456B;
+      border-radius: ;
+      text-align: center;
+      line-height: 50px;
+      display: inline-block;
+      cursor: pointer;
+    }
